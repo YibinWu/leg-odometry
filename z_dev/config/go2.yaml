@@ -1,0 +1,43 @@
+
+topic: "/lowstate"
+
+
+imudatarate: 200
+
+
+
+starttime: 337679  #for  rosbag2_2025_02_19-22_46_51
+endtime: 337857
+
+
+initAlignmentTime: 10
+
+initposstd: [0.05, 0.05, 0.05]  
+initvelstd: [0.05, 0.05, 0.05]   
+initattstd: [1.0, 1.0, 0.5]      
+
+imunoise:
+  arw:   0.1    
+  vrw:   6      
+  gbstd: 0.1    
+  abstd: 2000   
+  gsstd: 500   
+  asstd: 500    
+  corrtime: 0.5
+
+
+rotmat: [-1,0,0,
+        0,-1,0,
+        0,0,1]
+
+base_in_bodyimu: [0.0, 0.0, 0.1]
+
+robotpara:
+  ox: 0.1934
+  oy: 0.0465
+  ot: 0.0955
+  lc: 0.213
+  lt: 0.213
+
+output:
+  dir: "F:/UNIVERSITY_BONN/Working/Python_Code/legOdom/results_now"
