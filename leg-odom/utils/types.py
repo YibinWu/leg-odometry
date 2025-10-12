@@ -29,7 +29,7 @@ IMU_RATE = 200
 window_length = 11
 halfwindow_length = window_length // 2
 NormG = 9.782940329221166
-######对应types。h
+
 class IMU:
     def __init__(self):
         self.timestamp = 0.0
