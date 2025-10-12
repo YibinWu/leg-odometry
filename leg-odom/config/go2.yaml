@@ -40,4 +40,4 @@ robotpara:
   lt: 0.213
 
 output:
-  dir: "F:/UNIVERSITY_BONN/Working/Python_Code/legOdom/results_now"
+  dir: "../results_now"
