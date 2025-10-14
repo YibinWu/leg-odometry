@@ -37,6 +37,7 @@ from collections import deque
 from utils.rot import euler2cbn, matrix2euler
 
 
+print("Hello GitHub")
 
 def square(x: float | np.ndarray) -> float | np.ndarray:  # element‑wise
     return x * x
