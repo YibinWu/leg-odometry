@@ -6,7 +6,7 @@
 </p>
 
 ## EKF-based proprioceptive state estimation for legged robots using IMU and joint encoders
-This is our implementation to estimate the state of the legged robot's main body with a body mounted IMU and the joint encoders [1, 2]. We use the rosbag (ros2) collected from an [unitree go2](https://github.com/unitreerobotics/unitree_ros2) robot.
+This is our implementation to estimate the state of the legged robot's main body with a body mounted IMU and the joint encoders [[1](#2-reference), [2](#2-reference)]. We use the rosbag (ros2) collected from an [unitree go2](https://github.com/unitreerobotics/unitree_ros2) robot. We don't rely on a ROS2 environment since we decode the rosbag into numpy data with python.
 
 ## 💥News💥
 *Jun. 2025* :tada::tada: Our [DogLegs](https://arxiv.org/pdf/2503.04580) paper that adds multiple leg-mounted IMUs to this work has been accepted to IROS 2025. Please condsider cite our paper if you find this project helpful for your research.
