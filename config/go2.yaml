@@ -40,4 +40,4 @@ robotpara:
   lt: 0.213
 
 output:
-  dir: "../output"
+  dir: "./output"
