@@ -35,7 +35,7 @@ class DataLoader:
         self.config = config
         self.data_path = data_path
         self.add_types = {}
-        go2_msg_folder = "F:/UNIVERSITY_BONN/Working/Python_Code/legOdom/unitree_go/msg"
+        go2_msg_folder = "./unitree_go/msg"
         for root, dirs, files in os.walk(go2_msg_folder):
             for file in files:
                 if file.endswith(".msg"):
